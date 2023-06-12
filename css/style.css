@@ -1,8 +1,10 @@
-/* General */
+/* general */
 
 *{
     margin: 0;
 }
+
+/* header */
 
 header {
     height: 150px;
@@ -17,3 +19,32 @@ header {
     max-height: 50px;
 }
 
+/* main */
+
+main {
+    margin: 1rem .5rem;
+}
+
+/* main topic */
+
+h1 {
+    font-size: 3rem;
+}
+
+address {
+    color: #929292;
+    font-style: normal;
+}
+
+.address-date {
+    font-size: smaller;
+}
+
+a {
+    text-decoration-line: none;
+    color: #31AFE6;
+}
+
+.main-topic-footer {
+    font-size: smaller;
+}
