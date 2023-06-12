@@ -12,6 +12,9 @@
     background-color: yellow;
 }
 
+.grigio {
+    color: #929292;
+}
 /* header */
 
 header {
@@ -37,10 +40,11 @@ main {
 
 h1 {
     font-size: 4rem;
+    font-weight: bolder;
 }
 
 address {
-    color: #929292;
+    
     font-style: normal;
     font-size: medium;
 }
@@ -98,4 +102,38 @@ th {
 
 .light-blue {
     background-color: lightblue;
+}
+
+/* footer */
+
+footer {
+    margin: auto .5rem;
+    color: white;
+}
+
+.footer-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.monitor {
+    background-image: url("../img/monitor.jpg");
+    background-size: contain;
+    height: 15rem;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.graph {
+    background-image: url("../img/graph.jpg");
+    background-size: contain;
+    height: 15rem;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.footer-suggestion {
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
 }
