@@ -35,10 +35,6 @@ main {
 
 /* main topic */
 
-/* .main-topic-title {
-    margin: 2rem auto;
-} */
-
 h1 {
     font-size: 4rem;
 }
@@ -70,12 +66,13 @@ a {
 
 .main-topic-footer {
     font-size: small;
-    /* margin: auto auto 2rem auto; */
 }
 
-/* main informations */
+/* un-ordered list */
 
-/* .main-informations {
-    margin: auto auto 2rem auto;
-} */
+.list{
+    margin: 0;
+    padding: 1rem;
+}
 
+/* table */
