@@ -76,3 +76,26 @@ a {
 }
 
 /* table */
+
+.table-container {
+    width: 100%;
+    border-spacing: 0;
+    border: 0;
+}
+
+thead{
+    background-color: #31AFE6;
+    color: white;
+}
+
+th {
+    text-align: left;
+}
+
+.table-big-content {
+    width: 50%;
+}
+
+.light-blue {
+    background-color: lightblue;
+}
